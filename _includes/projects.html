@@ -1,0 +1,15 @@
+<section class="section projects-section">
+  <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+
+  <div class="intro">
+    {{ site.data.projects.intro }}
+  </div>
+
+  {% for project in site.data.projects.items %}
+  <div class="item">
+    <span class="project-title">
+      <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+    </span> - <span class="project-tagline">{{ project.description }}</span>
+  </div>
+  {% endfor %}
+</section>

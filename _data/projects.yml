@@ -1,0 +1,39 @@
+intro: >-
+  When I have leisure time, sometimes I like to experiment with new technologies
+  or learn something new. You can read more about some of the so-called pet
+  projects I made during leisure time below. Also, on an occasion, I am
+  contributing to open-source projects.
+items:
+  - title: Hexapod
+    link: 'https://github.com/ghaiklor/atmega-2560-hexapod/tree/master/hexapod'
+    description: >-
+      Constructed from plastic and servos. Its brains are based on Atmega and
+      written in C++ language.
+  - title: Simple OS
+    link: 'https://github.com/ghaiklor/ghaiklor-os-gcc'
+    description: >-
+      Transitions from 16-bit mode to 64-bit mode, few drivers for keyboard,
+      video output and a simple shell that understands echo command.
+  - title: Syntax Highlighter for JSONata
+    link: 'https://github.com/ghaiklor/codemirror-mode-jsonata'
+    description: >-
+      JSONata is a query language for JSON object with its own expressions and
+      statements. I made a plugin for CodeMirror editor that able to highlight
+      syntax of JSONata.
+  - title: High-performance API for a cursor in a terminal
+    link: 'https://github.com/ghaiklor/terminal-canvas'
+    description: >-
+      Written in TypeScript, exports the API you can use for cursor manipulation
+      in your terminal. It is fast enough to draw YouTube video in real-time,
+      check the demo.
+  - title: An interpreter for a subset of Pascal language
+    link: 'https://github.com/ghaiklor/pascal-interpreter'
+    description: >-
+      Recursive descent parser, written by hand, AST, variable lookups, symbol
+      table, interpret. I implemented all of it as part of my compilers
+      education.
+  - title: An interpeter for a subset of JavaScript language
+    link: 'https://github.com/ghaiklor/iterum'
+    description: >-
+      An interpreter that can parse and interpret the subset of JavaScript
+      language.
