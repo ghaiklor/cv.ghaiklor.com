@@ -1,0 +1,24 @@
+- type: location
+  icon: fas fa-search-location
+  link: 'https://goo.gl/maps/aYfeBZGZ5QDj3ufSA'
+  body: 'Kyiv, Ukraine'
+- type: email
+  icon: fas fa-envelope
+  link: 'mailto: ghaiklor@gmail.com'
+  body: ghaiklor@gmail.com
+- type: website
+  icon: fas fa-globe
+  link: 'https://ghaiklor.com'
+  body: ghaiklor.com
+- type: linkedin
+  icon: fab fa-linkedin-in
+  link: 'https://www.linkedin.com/in/ghaiklor/'
+  body: linkedin.com/in/ghaiklor
+- type: github
+  icon: fab fa-github
+  link: 'https://github.com/ghaiklor'
+  body: github.com/ghaiklor
+- type: twitter
+  icon: fab fa-twitter
+  link: 'https://twitter.com/ghaiklor'
+  body: '@ghaiklor'

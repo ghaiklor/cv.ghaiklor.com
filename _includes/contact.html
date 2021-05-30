@@ -1,0 +1,9 @@
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+    {% for contact in site.data.contact %}
+    <li class="{{ contact.type }}">
+      <i class="{{ contact.icon }}"></i><a href="{{ contact.link }}">{{ contact.body }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
