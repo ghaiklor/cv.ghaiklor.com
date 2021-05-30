@@ -1,6 +1,6 @@
 # cv.ghaiklor.com
 
-[![Build Status](https://travis-ci.com/ghaiklor/cv.ghaiklor.com.svg?branch=main)](https://travis-ci.com/ghaiklor/cv.ghaiklor.com)
+[![Build Status](https://travis-ci.com/ghaiklor/cv.ghaiklor.com.svg?branch=master)](https://travis-ci.com/ghaiklor/cv.ghaiklor.com)
 
 The website where I am holding my work experience, side projects, contact info, etc.
 
