@@ -1,0 +1,47 @@
+- title: Software Engineer
+  company: Wix
+  years: 2020 - Present
+  details: >-
+    Taking part in infrastructure team, providing the in-house solutions for Wix
+    developers. These solutions include providing frameworks, build tools,
+    setting up CI/CD pipelines and everything else that relates to developer
+    tooling.
+- title: Software Engineer
+  company: elastic.io
+  years: 2017 - 2019
+  details: >-
+    Acting as a T-shaped developer I was doing a lot and nothing at once.
+    Ranging from developing an API for our production to pushing DevOps culture.
+    The reason behind it is that it is a startup with a limited resource but a
+    lot of work to do. This is the place where I learned a lot about Kubernetes,
+    Mesos, tweaking runtimes for better performance, profiling bottlenecks and
+    the likes.
+- title: Software Engineer
+  company: Dev-Pro
+  years: 2016 - 2017
+  details: >-
+    The product I was working on was an Electron-based application for Point of
+    Sale systems. More concrete, I was a team-lead of the team responsible for
+    developing a npm library that acts as an SDK to access hardware devices.
+    These devices include payment terminals, card readers, keepers, etc. We had
+    a lot of work to provide a compatibility between hardware devices and the
+    front-end.
+- title: Software Engineer
+  company: Onix-Systems
+  years: 2013 - 2016
+  details: >-
+    I was a part of outsource company that provides service in Web-related
+    products. Right from the beginning I took part in the team that develops a
+    product for integrating banner-based ads on customers' websites. Meaning,
+    you, as a customer, could integrate and configure advertisements on your
+    website without developers. Just by using an admin panel we had.
+- title: Software Engineer
+  company: MAA
+  years: 2012 - 2013
+  details: >-
+    Our target audience was small businesses that had a transport park. The
+    problem we were solving is to provide an easy-to-use web interface for those
+    customers to monitor the status of each vehicle. Each vehicle had a GPS
+    tracker we persistently monitor and log coordinates into the archive. Using
+    the information from that archive we were building timelines, statistics,
+    real-time location, etc.
