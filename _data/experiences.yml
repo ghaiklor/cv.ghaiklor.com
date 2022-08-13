@@ -1,47 +1,71 @@
-- title: Software Engineer
+- title: Software Developer
   company: Wix
-  years: 2020 - Present
+  years: 2020 - 2022
   details: >-
-    Taking part in infrastructure team, providing the in-house solutions for Wix
-    developers. These solutions include providing frameworks, build tools,
-    setting up CI/CD pipelines and everything else that relates to developer
-    tooling.
-- title: Software Engineer
+    My interests after working with elastic.io shifted a lot into developer
+    tools. I was lucky to find a project in Wix that required to develop the
+    internal developer tools. These tools included internal frameworks for
+    Node.js, internal platforms for writing and deploying the code in
+    production, internal libraries to share the guidelines of the company and so
+    on. Well, you got the idea. I was part of the team that develops it for Wix
+    developers, for our colleagues. Delivering better velocity when it comes to
+    developing new services by delegating their pain on our shoulders. The
+    outcome of such a team is to provide the internal platform for other
+    developers on which the other products are built.
+- title: Software Developer
   company: elastic.io
   years: 2017 - 2019
   details: >-
-    Acting as a T-shaped developer I was doing a lot and nothing at once.
-    Ranging from developing an API for our production to pushing DevOps culture.
-    The reason behind it is that it is a startup with a limited resource but a
-    lot of work to do. This is the place where I learned a lot about Kubernetes,
-    Mesos, tweaking runtimes for better performance, profiling bottlenecks and
-    the likes.
-- title: Software Engineer
+    It was the first time when I took sabbatical after working in Dev-Pro. Once
+    it ended, I decided to join a small startup that provided a solution to
+    integrate different sources and destinations between each other. That was
+    the place where I was doing everything I knew and didn't know. Because of
+    this, I learned a lot about building production APIs, managing clusters with
+    Kubernetes, developing developer tools and so on and so forth. That's the
+    place, where I learned a lot and grew as a software developer.
+- title: Software Developer
   company: Dev-Pro
   years: 2016 - 2017
   details: >-
-    The product I was working on was an Electron-based application for Point of
-    Sale systems. More concrete, I was a team-lead of the team responsible for
-    developing a npm library that acts as an SDK to access hardware devices.
-    These devices include payment terminals, card readers, keepers, etc. We had
-    a lot of work to provide a compatibility between hardware devices and the
-    front-end.
-- title: Software Engineer
+    After an amazing experience in Onix-Systems, I decided to change town and
+    continue my journey elsewhere. Dev-Pro hired me to lead a small team of
+    developers and to implement a library that communicates with the Point of
+    Sale hardware. These devices are payment terminals, magnet card readers,
+    thermal printers and everything else that is needed for POS to operate. It
+    was a lot of reading, especially specifications for payment terminals, but,
+    in the end, we delivered a library that can be built with the Angular and
+    run in the Electron. So that the other team of Angular developers could
+    communicate with the POS hardware without knowing the technical details of
+    it behind.
+- title: Software Developer
   company: Onix-Systems
   years: 2013 - 2016
   details: >-
-    I was a part of outsource company that provides service in Web-related
-    products. Right from the beginning I took part in the team that develops a
-    product for integrating banner-based ads on customers' websites. Meaning,
-    you, as a customer, could integrate and configure advertisements on your
-    website without developers. Just by using an admin panel we had.
-- title: Software Engineer
+    It's hard to describe what I was working with in the company. Started as a
+    PHP developer working with the WordPress to implement a plugin for it. The
+    plugin provided a possibility to integrate the website with banner-ads,
+    e-mail subscribe forms, etc. But the fate decided otherwise and pretty soon
+    the whole project was rewritten by me into Node.js, following by leading a
+    team of Node.js developers onsite. That was pretty an interesting experience
+    so will gladly discuss it on the interview.
+- title: Software Developer
   company: MAA
   years: 2012 - 2013
   details: >-
-    Our target audience was small businesses that had a transport park. The
-    problem we were solving is to provide an easy-to-use web interface for those
-    customers to monitor the status of each vehicle. Each vehicle had a GPS
-    tracker we persistently monitor and log coordinates into the archive. Using
-    the information from that archive we were building timelines, statistics,
-    real-time location, etc.
+    At some point, while freelancing, I found a client that had a lot of work to
+    give. So that, I stopped freelancing and started working with one specific
+    company and people. The project we were developing was about providing a
+    user interface to manage the transport park. Including, but not limiting,
+    vehicle tracking via GPS, storing archive data for replaying the timeline of
+    the vehicle position and so on. The problem we solved is that managers in
+    transport parks were able to monitor their vehicles and in the case of
+    emergency immediately take action to help.
+- title: Freelancer
+  company: Any with the job to give
+  years: < 2012
+  details: >-
+    While studying in the university, I had some freelancing stuff to work with
+    to get along. Mostly, it was some minor programming, making landing pages,
+    configuring CMS, reverse-engineering some stuff and so on. Nothing specific
+    or something that worth mentioning, was trying to make my living, that's
+    all.

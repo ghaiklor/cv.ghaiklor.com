@@ -4,9 +4,11 @@
   proficiency: 100
 - title: JavaScript / TypeScript
   proficiency: 100
-- title: Linux/*nix
-  proficiency: 60
+- title: Linux/*nix/MacOS
+  proficiency: 80
 - title: DevOps
-  proficiency: 50
+  proficiency: 60
 - title: Compilers
   proficiency: 30
+- title: Cyber Security
+  proficiency: 20

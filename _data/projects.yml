@@ -1,39 +1,112 @@
 intro: >-
-  When I have leisure time, sometimes I like to experiment with new technologies
-  or learn something new. You can read more about some of the so-called pet
-  projects I made during leisure time below. Also, on an occasion, I am
-  contributing to open-source projects.
+  I specify here only the projects that are publicly available on my GitHub. I'm
+  not going to tell about projects I was working with as part of my career (we
+  can talk about them as part of the interview). For me, these are totally
+  different things, and I want to show you my interests and what I love to work
+  with foremost and not the stuff I was forced to work with.
 items:
-  - title: Hexapod
-    link: 'https://github.com/ghaiklor/atmega-2560-hexapod/tree/master/hexapod'
+  - title: Semi-automatic installer for Developer Tools\iTerm\Fish Shell\Plugins
+    link: "https://github.com/ghaiklor/iterm-fish-fisher-osx"
     description: >-
-      Constructed from plastic and servos. Its brains are based on Atmega and
-      written in C++ language.
+      I reinstall my operating system pretty often, especially when a major
+      update comes up. I don't believe into backward compatibility, sorry. One
+      of the problems after reinstalling the system is to install all the
+      developer tools you need to work. This script was built as Bash script
+      that you can run in one-line and get the installation process for Command
+      Line Tools, Homebrew, iTerm, Fish Shell and all the plugins and tweaks to
+      it to get the shell with batteries included. The installer used by many
+      people who work with Fish Shell and want to have batteries included
+      without installing all of it manually.
+  - title: Canvas-like API for a terminal emulator cursor
+    link: "https://github.com/ghaiklor/terminal-canvas"
+    description: >-
+      I have a project called kittik. It is built to create and show slides in
+      the terminal as an ASCII art. While the kittik itself is a tool set to
+      build those slides, it needs to have its rendering engine. This project is
+      exactly that - rendering engine to manipulate cursor in the terminal
+      emulator through a canvas-like API. By incorporating caching, algorithm to
+      check changed cells and flush only what really changed and other small
+      tweaks, I managed to get a fast enough rendering. Sure, it is not fast
+      enough as other alternatives in other languages, but for Node.js it is
+      pretty ok. Delivered as a npm package and written in TypeScript, it allows
+      you to quickly integrate cursor manipulation in your Node.js project.
+  - title: Parser for Icecast metadata
+    link: "https://github.com/ghaiklor/icecast-parser"
+    description: >-
+      One of the projects I was working on was a search engine for radio
+      stations. The overall idea was to index all the radio stations on the
+      internet, grab the metadata from them and provide a search to it. For
+      instance, searching for “AC/DC” should provide all the radio stations
+      where it was playing at the moment. To achieve that, one of the components
+      needed is a parser to metadata. That's how the project was born. It is
+      designed to connect to a radio station, grab the metadata, parse it and
+      give to the developer.
+  - title: Type Challenges Solutions
+    link: "https://github.com/ghaiklor/type-challenges-solutions"
+    description: >-
+      There is a project called Type Challenges. The idea of the project is to
+      provide a collection of challenges where you need to solve problems by
+      using only the TypeScript Type System (no runtime at all). However, there
+      was a gap in solutions to them, and, sometimes, it wasn't clear on how the
+      solutions were built. So I made a collection of solutions to those
+      challenges, with a detailed and incremental explanation on each challenge.
+      It is delivered as a website with links to the original challenge and
+      links to the solutions with the incremental walkthrough.
+  - title: Kittik
+    link: "https://github.com/ghaiklor/kittik"
+    description: >-
+      Building and presenting slides in the terminal, it was something that I
+      was following for some time. Imaging showing your slides as ASCII art in
+      the terminal instead of Google Slides or Keynote! It's not something that
+      is usable, but it's cool and geek-y. So I developed a tool set to create,
+      build and show your own slides in the terminal. It is based on TypeScript
+      and runs in Node.js runtime.
+  - title: Iterum
+    link: "https://github.com/ghaiklor/iterum"
+    description: >-
+      When I was learning compiler theory, I worked with different kinds of
+      homework and pet compilers to implement. However, at that time, I never
+      wrote even a close-to-production “something” that will be able to compile
+      or interpret the code. So this project was an educational project for me.
+      The goal I followed is to implement an interpreter for a subset of
+      ECMAScript specification. Including parser, simple runtime (not actually
+      the runtime, but just a proxy-runtime from Node.js), CLI and test
+      infrastructure for it. In the end, I got a CLI tool I can use to interpret
+      some JavaScript files and get the result back.
+  - title: Nand2Tetris
+    link: "https://github.com/ghaiklor/nand-2-tetris"
+    description: >-
+      Nand2Tetris is a course on Coursera that guides you from the CPU basics to
+      developing your own operating system on top of your own CPU. Completing
+      the course was a total fun for me, so in result I've got a project where
+      the source code stored for the CPU, assembler for it, compiler and
+      operating system. Meaning, that's all about the whole tool chain developed
+      by me while passing the course.
   - title: Simple OS
-    link: 'https://github.com/ghaiklor/ghaiklor-os-gcc'
+    link: "https://github.com/ghaiklor/ghaiklor-os-gcc"
     description: >-
-      Transitions from 16-bit mode to 64-bit mode, few drivers for keyboard,
-      video output and a simple shell that understands echo command.
-  - title: Syntax Highlighter for JSONata
-    link: 'https://github.com/ghaiklor/codemirror-mode-jsonata'
+      I was interested in how operating systems work and the best way to learn
+      about it is to create your own. So I've found some courses and materials
+      that are publicly available and decided to follow along and write my own
+      operating system. Of course, it is a simple operating system, with
+      transitions from x16 mode to x64 and drivers for keyboard and video. As a
+      result, you have an operating system that is able to accept input from the
+      keyboard and echo it on the terminal.
+  - title: CodeMirror Mode for JSONata
+    link: "https://github.com/ghaiklor/codemirror-mode-jsonata"
     description: >-
-      JSONata is a query language for JSON object with its own expressions and
-      statements. I made a plugin for CodeMirror editor that able to highlight
-      syntax of JSONata.
-  - title: High-performance API for a cursor in a terminal
-    link: 'https://github.com/ghaiklor/terminal-canvas'
+      JSONata is a language that allows to select different parts of the JSON
+      objects using the domain specific language. There were no syntax
+      highlighters for the language at that time, so I wrote my own syntax
+      highlighter for it.
+  - title: Sails REST API Scaffolder
+    link: "https://github.com/ghaiklor/generator-sails-rest-api"
     description: >-
-      Written in TypeScript, exports the API you can use for cursor manipulation
-      in your terminal. It is fast enough to draw YouTube video in real-time,
-      check the demo.
-  - title: An interpreter for a subset of Pascal language
-    link: 'https://github.com/ghaiklor/pascal-interpreter'
-    description: >-
-      Recursive descent parser, written by hand, AST, variable lookups, symbol
-      table, interpret. I implemented all of it as part of my compilers
-      education.
-  - title: An interpeter for a subset of JavaScript language
-    link: 'https://github.com/ghaiklor/iterum'
-    description: >-
-      An interpreter that can parse and interpret the subset of JavaScript
-      language.
+      A long time ago, when I was working with developing REST APIs for mobile
+      applications, I noticed some patterns that were common for all APIs. It
+      motivated me to develop those patterns into something that will scaffold
+      them automatically without developing the code for it. In the result, I
+      got a scaffolder based on framework Sails that we were fine-tuning to
+      provide additional services with common patterns implemented. The
+      scaffolder was used to automate and increase velocity when building new
+      APIs for mobile applications.
