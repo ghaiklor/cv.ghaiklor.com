@@ -5,11 +5,13 @@
     {{ site.data.projects.intro }}
   </div>
 
-  {% for project in site.data.projects.items %}
-  <div class="item">
-    <span class="project-title">
-      <a href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
-    </span> - <span class="project-tagline">{{ project.description }}</span>
-  </div>
-  {% endfor %}
+  <ul>
+    {% for project in site.data.projects.items %}
+    <li class="item">
+      <span class="project-title">
+        <a href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
+      </span> - <span class="project-tagline">{{ project.description }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
